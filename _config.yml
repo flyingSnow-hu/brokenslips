@@ -1,2 +1,6 @@
-encoding: utf-8
+#encoding: UTF-8
+title: 斷簡殘篇
+description: 日有所進
 theme: jekyll-theme-time-machine
+show_downloads: false
+google_analytics:
