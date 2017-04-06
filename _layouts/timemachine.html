@@ -32,8 +32,14 @@
           <a href="{{ site.github.tar_url }}" class="download-button tar"><span>Download</span></a>
           <a href="{{ site.github.zip_url }}" class="download-button zip"><span>Download</span></a>
           {% endif %}
+
+          {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}"><span>回到首頁</span></a>&nbsp;
+          <a href="{{ site.github.repository_url }}/indexes/indexes.html"><span>分類目錄</span></a>
+          {% else %}
           <a href="{{ site.url }}"><span>回到首頁</span></a>&nbsp;
           <a href="{{ site.url }}/indexes/indexes.html"><span>分類目錄</span></a>
+          {% endif %}
         </div>
         <span class="blc"></span><span class="trc"></span>
         </div>
