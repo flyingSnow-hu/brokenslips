@@ -11,7 +11,9 @@ layout: timemachine
 
  * AI  
 [AI博弈树基础笔记](../ai/2017/04/11/ai-basement)  
+[负极大值算法](../ai/2017/04/24/negamax)  
 
  * 内功  
 [数据结构与算法简要提纲](../internal-strength/2017/04/18/data-structures-brief)  
 [《游戏编程模式》笔记](../internal-strength/2017/04/20/game-programming-patterns)  
+[Dijkstra及寻路算法](../internal-strength/2017/04/26/dijkstra_algorithm)  

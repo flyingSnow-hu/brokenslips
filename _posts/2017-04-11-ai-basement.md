@@ -24,40 +24,23 @@ category: ai
 
 ## 搜索算法
   * Alpha-Beta 剪枝：基础中的基础  
-  ```C#
-     private int AlphaBeta(int depth, int maxDepth , int alpha,int beta)
-    {
-        //Debug.Log(string.Format("*******alpha={0} beta={1}******", alpha,beta));
-        if (depth >= maxDepth || IsGameOver())
-        {
-            return Evaluation(depth);
-        }
+  ```pseudocode 
+  01 function negamax(node, depth, α, β, color)
+  02     if depth = 0 or node is a terminal node
+  03         return color * the heuristic value of node
 
-        AMove[] allMoves = GetAllMoves();
-        for (int i = 0; i < allMoves.Length; i++)
-        {
-            Do(allMoves[i]);
-            //Debug.Log(string.Format("*******节点：{0}******",allMoves[i].GetHash()));
-            int value = -AlphaBeta(depth + 1, maxDepth, -beta, -alpha);
-
-            //Debug.Log(string.Format("节点：{0},得分：{1}", allMoves[i].GetHash(),value));
-            Undo(allMoves[i]);
-            if (value >= alpha)
-            {
-                alpha = value;
-                //Debug.Log(string.Format("节点 {0} 得分：{1}，更新其父节点", allMoves[i].GetHash(), value));
-            }
-            if (alpha >= beta)
-            {
-                //Debug.Log(string.Format("alpha={1} beta = {2} 剪掉 {0} 的兄弟节点", allMoves[i].GetHash(),alpha,beta));
-                break;//beta 剪枝
-            }
-        }
-
-        return alpha;
-    }
+  04     childNodes := GenerateMoves(node)
+  05     childNodes := OrderMoves(childNodes)
+  06     bestValue := −∞
+  07     foreach child in childNodes
+  08         v := −negamax(child, depth − 1, −β, −α, −color)
+  09         bestValue := max( bestValue, v )
+  10         α := max( α, v )
+  11         if α ≥ β
+  12             break
+  13     return bestValue
   ```  
-  
+
   * Fail-soft alpha-beta: 加窗的AB剪枝，一开始就限制ab的范围，如果搜索失败，视返回值情况决定是向下扩展还是向上扩展
   * 渴望搜索: 加什么样的窗需要研究一下
   * 极小窗口搜索（PVS算法/NegaScout算法）：先探测第一个分支，返回最佳值v，第二个分支开始以(v,v+1)开始加窗
