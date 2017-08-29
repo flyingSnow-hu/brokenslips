@@ -17,3 +17,6 @@ layout: timemachine
 [数据结构与算法简要提纲](../internal-strength/2017/04/18/data-structures-brief)  
 [《游戏编程模式》笔记](../internal-strength/2017/04/20/game-programming-patterns)  
 [Dijkstra及寻路算法](../internal-strength/2017/04/26/dijkstra_algorithm)  
+
+ * 其他
+[解决Sublime Text 无法显示韩文](../others/2017/08/29/sublime)  
