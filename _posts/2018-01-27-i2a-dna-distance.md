@@ -1,6 +1,6 @@
 ---
 layout: timemachine
-title: 《算法导论·动态规划·DNA距离》
+title: 算法导论·动态规划·DNA距离
 tags: introduction_to_algorithms dynamic_programming
 date: 2018-01-27
 category: introduction_to_algorithms
