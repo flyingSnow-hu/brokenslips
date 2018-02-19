@@ -19,5 +19,8 @@ layout: timemachine
 [Dijkstra及寻路算法](../internal-strength/2017/04/26/dijkstra_algorithm)  
 [各种排序](../internal-strength/2018/02/07/sorting-algorithms)  
 
- * 其他
+ * 鸡零狗碎系列  
+ [python鸡零狗碎](../python/2018/02/01/python-tips)
+
+ * 其他  
 [解决Sublime Text 无法显示韩文](../others/2017/08/29/sublime)  
