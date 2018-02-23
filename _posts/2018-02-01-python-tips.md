@@ -26,7 +26,7 @@ category: python
    print r'some_path\\' # right
    ```
 
- * python 中模拟 enum
+ * python 中模拟 enum  
   ```python
   def __error_enum(**enums):
     return type('__ERROR_CODE', (), enums)
