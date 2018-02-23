@@ -25,3 +25,16 @@ category: python
    ```python
    print r'some_path\\' # right
    ```
+
+ * python 中模拟 enum
+  ```python
+  def __error_enum(**enums):
+    return type('__ERROR_CODE', (), enums)
+ 
+  ERROR_CODE = __error_enum(
+    FILE_ERROR=1100,
+    UNKNOWN_PLATFORM=2100,
+    UNKNOWN_CHANNEL=2200, 
+    UNKNOWN_LANGUAGE=2300,
+  )
+  ```
