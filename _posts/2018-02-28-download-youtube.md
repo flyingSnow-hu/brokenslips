@@ -8,12 +8,12 @@ category: others
 # 下载 youtube 视频和字幕
 
 ## 下载视频
-[原帖](https://www.zhihu.com/question/20157513/answer/52271574)  
+[这是原帖](https://www.zhihu.com/question/20157513/answer/52271574)  
 
  * 使用 YouTube-dl
 
  1. 安装
-   * Unix 用户：
+   * Unix 用户：  
    ```shell
    sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
@@ -43,8 +43,9 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 	 youtube-dl -f v值
 	 ```
 
+  
 ## 下载字幕
-[原帖](https://www.zhihu.com/question/19647719) 
+[这是原帖](https://www.zhihu.com/question/19647719) 
 
 1. 安装 Chrome
 2. 安装 Tampermonkey
