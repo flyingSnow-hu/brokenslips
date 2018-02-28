@@ -24,3 +24,4 @@ layout: timemachine
 
  * 其他  
 [解决Sublime Text 无法显示韩文](../others/2017/08/29/sublime)  
+[下载 youtube 视频和字幕](../others/2018/08/28/download-youtube)  
