@@ -8,6 +8,7 @@ layout: timemachine
  * Android  
 [Android 为TabHost添加标签页报错](../android/2017/04/07/android-tabhost-error)  
 [如何把 java 转化成 smali](../android/2017/04/12/java-to-smali)  
+[App ID 还是 Package Name](../android/2018/03/13/app-id)  
 
  * AI  
 [AI博弈树基础笔记](../ai/2017/04/11/ai-basement)  
