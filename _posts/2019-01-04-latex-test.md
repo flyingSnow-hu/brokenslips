@@ -7,7 +7,7 @@ category: others
 ---
 # LaTeX 测试  
   
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>  
+
   
 行内公式 \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
 行间公式 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
