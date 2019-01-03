@@ -1,5 +1,5 @@
 ---
-layout:slate
+layout: slate
 title: LaTeX 测试
 tags: LaTeX 
 date: 2019-01-04
