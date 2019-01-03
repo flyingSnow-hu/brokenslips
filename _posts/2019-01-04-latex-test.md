@@ -5,7 +5,7 @@ tags: LaTeX
 date: 2019-01-04
 category: others
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>  
 
 # LaTeX 测试
 
