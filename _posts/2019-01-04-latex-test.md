@@ -1,6 +1,7 @@
 ---
 title: LaTeX 测试
 tags: LaTeX 
+date: 2019-01-04
 category: unity
 ---
 # LaTeX 测试
