@@ -1,7 +1,7 @@
 #encoding: UTF-8
 title: 斷簡殘篇
 description: 日有所思，月有所進
-theme: jekyll-theme-slate
+theme: jekyll-text-theme
 show_downloads: false
 blog_url: https://flyingsnow-hu.github.io/brokenslips/
 google_analytics:
