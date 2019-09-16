@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: C# 的 Dictionary
 tags: c#
 date: 2017-11-28

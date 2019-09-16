@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: AI博弈树基础笔记
 tags: others ai
 date: 2017-04-11

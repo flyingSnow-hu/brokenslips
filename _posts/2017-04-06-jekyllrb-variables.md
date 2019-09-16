@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: jekyllrb 的可用變量
 tags: jekyllrb
 ---

@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: 数据结构与算法简要提纲
 tags: data-structure
 date: 2017-04-18

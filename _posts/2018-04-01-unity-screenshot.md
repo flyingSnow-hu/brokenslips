@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: Unity 某个相机截图
 tags: unity 
 date: 2018-04-01

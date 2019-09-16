@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: Dijkstra及寻路算法
 tags: others sample
 date: 2017-04-26

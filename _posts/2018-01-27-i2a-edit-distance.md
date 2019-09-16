@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: 算法导论·动态规划·编辑距离
 tags: introduction_to_algorithms dynamic_programming
 date: 2018-01-27

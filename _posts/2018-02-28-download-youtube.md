@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: 下载 youtube 视频和字幕
 tags: youtube
 date: 2018-02-28

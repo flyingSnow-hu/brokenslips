@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: 《游戏编程模式》笔记
 tags: others design-pattern
 date: 2017-04-20

@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: 各种排序
 tags: sorting
 date: 2018-02-07

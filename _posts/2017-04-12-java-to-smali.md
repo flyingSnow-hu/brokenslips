@@ -1,5 +1,5 @@
 ---
-layout: timemachine
+layout: articles
 title: 如何把 java 转化成 smali
 tags: others android
 date: 2017-04-12
