@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: 《Unity Shader入门精要》笔记
 tags: shader unity
 date: 2017-04-05

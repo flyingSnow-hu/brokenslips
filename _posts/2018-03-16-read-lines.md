@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: Python 各种读文件方法
 tags: python readlines
 date: 2018-03-16

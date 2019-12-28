@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: 算法导论·Bellman-Ford 算法
 tags: introduction_to_algorithms bellman-ford
 date: 2018-02-09

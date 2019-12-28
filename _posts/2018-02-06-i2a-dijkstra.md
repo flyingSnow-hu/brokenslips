@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: 算法导论·Dijkstra算法
 tags: introduction_to_algorithms dijkstra
 date: 2018-02-06

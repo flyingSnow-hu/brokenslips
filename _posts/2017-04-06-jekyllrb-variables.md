@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: jekyllrb 的可用變量
 tags: jekyllrb
 ---

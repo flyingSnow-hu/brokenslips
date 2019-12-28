@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: 预积分皮肤渲染
 tags: cg
 category: cg

@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: Android 为TabHost添加标签页 报错
 tags: others android
 date: 2017-04-07

@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: C# 的 Dictionary
 tags: c#
 date: 2017-11-28

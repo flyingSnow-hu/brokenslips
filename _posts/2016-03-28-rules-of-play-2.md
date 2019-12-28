@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: Rules of Play - 2
 tags: game-design
 category: rules-of-play

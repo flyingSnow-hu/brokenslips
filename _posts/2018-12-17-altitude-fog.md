@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: 积分解 Unity 高度雾
 tags: unity 
 date: 2018-12-17

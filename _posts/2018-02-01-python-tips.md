@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: python 鸡零狗碎
 tags: python tips
 date: 2018-02-01

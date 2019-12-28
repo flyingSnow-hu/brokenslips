@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: 图形学里那些著名的模型
 tags: cg
 category: cg

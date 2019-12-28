@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: article
 title: 各种排序
 tags: sorting
 date: 2018-02-07
