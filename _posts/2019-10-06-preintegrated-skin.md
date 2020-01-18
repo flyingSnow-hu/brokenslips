@@ -20,16 +20,18 @@ PSS 主要来自《GPU Pro2》上的文章和 2011 年 siggraph 的演讲，本�
 PSS 算法把皮肤的光线分为两部分：散射和高光，需要分别计算再求和。
 
 ### 散射
-计算 PSS 的散射，需要一张 LUT 图
+计算 PSS 的散射，需要一张 LUT 图  
+
 ![LUT]({{"/postres/2019-10-06-preintegrated-skin/lut.png"|absolute_url}})
 
 横轴是 $$n \cdot l$$ 归一化到 $[0,1]$区间，纵轴是曲率的倒数：`length(fwidth(i.normal)) / length(fwidth(i.worldPos))`，对这张图采样，获得是周围各点对此点的像素散射的累积，用这个采样值替换掉兰伯特公式里的 $$n \cdot l$$ 就可以了。
 
 ### 高光
-理论上建议使用[Kelemen/Szirmay-Kalos specular BRDF高光][2]，不过有人提出 Blinn-Phong 效果似乎更好[1]。
+理论上建议使用Kelemen/Szirmay-Kalos specular BRDF高光[2]，不过有人提出 Blinn-Phong 效果似乎更好[1]。
 
 ### 生成 LUT
-拿来主义实践的角度，LUT可以直接拿来用，如果想知道如何生成，简述一下：
+拿来主义实践的角度，LUT可以直接拿来用，如果想知道如何生成，简述一下：  
+
 **首先**有一个高斯函数G: 
 
 $$G(r,v)=\frac {1}{2 \pi v}e^{-r^2/2v}$$
@@ -87,8 +89,8 @@ $$D(\theta ,r) = \frac{\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}cos(\theta+x)R(2r\cd
 这里，曲率等于坐标微分和法线微分长度的商，实践中用的是其倒数，解释如图：
 
 ![reverseR]({{"/postres/2019-10-06-preintegrated-skin/reverseR.png"|absolute_url}})
-
-
+  
+  
 ## 再回到实践
 
 PSS 原理上比较复杂，使用起来非常简单，只要对 LUT 采样以代替兰伯特光照的 nl 就可以了。然而实践上还有一些小问题：
