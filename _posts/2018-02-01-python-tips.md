@@ -38,3 +38,20 @@ category: python
     UNKNOWN_LANGUAGE=2300,
   )
   ```
+
+* python 下载大文件
+```python
+def download_file(url: str, target_file_name: str, chunk_size: int = 16 * 1024):
+    """
+        使用python核心库下载大文件
+        ref: https://stackoverflow.com/questions/1517616/stream-large-binary-files-with-urllib2-to-file
+    """
+
+    response = urlopen(url)
+    with open(target_file_name, 'wb') as f:
+        while True:
+            chunk = response.read(chunk_size)
+            if not chunk:
+                break
+            f.write(chunk)
+```

@@ -176,6 +176,19 @@ inline float DecodeFloatRGBA( float4 rgba ) {
 ## gpu instancing shader 格式速查
 （待补）
 
+## 求亮度
+
+```
+float rgb2luma(vec3 rgb) {
+    return rgb.g; // Nvidia官方版本
+    // return dot(rgb, vec3(0.2126, 0.7152, 0.0722)); // 最流行的亮度计算
+    // return dot(rgb, vec3(0.299, 0.587, 0.114)); // 曾经最流行的方法
+    // return sqrt(0.299 * rgb.r * rgb.r + 0.587 * rgb.g * rgb.g + 0.114 * rgb.b * rgb.b); // 更精确的计算
+    // return sqrt(dot(rgb, vec3(0.299, 0.587, 0.114))); // 添加了 gamma 校正的计算
+}
+```
+UnityCG.cginc 中有 LinearRgbToLuminance 方法，用的是上面第二种
+
 # Editor
 
 ## 鼠标点击获取屏幕坐标
