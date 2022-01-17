@@ -18,7 +18,8 @@ layout: timemachine
 [数据结构与算法简要提纲](../internal-strength/2017/04/18/data-structures-brief)  
 [《游戏编程模式》笔记](../internal-strength/2017/04/20/game-programming-patterns)  
 [Dijkstra及寻路算法](../internal-strength/2017/04/26/dijkstra_algorithm)  
-[各种排序](../internal-strength/2018/02/07/sorting-algorithms)  
+[各种排序](../internal-strength/2018/02/07/sorting-algorithms)   
+[随机选取链表元素](../internal-strength/2022/01/17/random-in-linkedlist)  
 
  * Python
  [python鸡零狗碎](../python/2018/02/01/python-tips)
