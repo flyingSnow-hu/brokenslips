@@ -448,7 +448,7 @@ We'd like to kill this concept. But that would mean breaking possibly a lot of e
 
 ## ⚠无法删掉的 MonoBehaviour
 像这样写一段代码，就能让 MonoBehaviour 一旦被添加到物体上，就永远无法删掉（亲测 2019.4.18.f1 有效）
-```C#
+```c#
 using UnityEngine;
 
 [RequireComponent(typeof(CannotRemove))]
