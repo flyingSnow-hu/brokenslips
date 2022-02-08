@@ -446,6 +446,21 @@ We'd like to kill this concept. But that would mean breaking possibly a lot of e
 
 # 技巧
 
+## ⚠无法删掉的 MonoBehaviour
+像这样写一段代码，就能让 MonoBehaviour 一旦被添加到物体上，就永远无法删掉（亲测 2019.4.18.f1 有效）
+```C#
+using UnityEngine;
+
+[RequireComponent(typeof(CannotRemove))]
+public class CannotRemove:MonoBehaviour
+{
+	// ...
+}
+```
+无论是通过编辑器还是通过脚本，都无法删掉这个组件——当然你还是可以 Destroy 整个物体
+如果想更绝情一点，还可以加一个 DisallowMultipleComponent
+  
+  
 ## 地形 Terrain 不能旋转和缩放
 
  所以地形 Shader 里获取的 normal 不需要 UnityObjectToWorldNormal，因为只是平移不会修改法线，Object 即 World  
